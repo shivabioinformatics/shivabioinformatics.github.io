@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Shiva Sadeghpour - Bioinformatician</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Custom earth tone styling */
+			:root {
+				--earth-primary: #8B6F47;
+				--earth-secondary: #6F5835;
+				--earth-light: #F0EBE3;
+				--earth-bg: #FAF8F5;
+			}
+
+			.metrics-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+				gap: 1rem;
+				margin: 1.5rem 0;
+			}
+
+			.metric-box {
+				background: rgba(139, 111, 71, 0.1);
+				padding: 1rem;
+				border-radius: 8px;
+				text-align: center;
+				border-left: 4px solid var(--earth-primary);
+			}
+
+			.metric-value {
+				font-size: 1.8rem;
+				font-weight: 600;
+				color: var(--earth-primary);
+				display: block;
+			}
+
+			.metric-label {
+				font-size: 0.9rem;
+				color: #666;
+				margin-top: 0.5rem;
+			}
+
+			.project-card {
+				background: rgba(255, 255, 255, 0.05);
+				border: 2px solid rgba(139, 111, 71, 0.3);
+				border-radius: 12px;
+				padding: 1.5rem;
+				margin: 1.5rem 0;
+			}
+
+			.tech-columns {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 1.5rem;
+				margin: 1.5rem 0;
+			}
+
+			@media (max-width: 768px) {
+				.tech-columns {
+					grid-template-columns: 1fr;
+				}
+			}
+
+			.icon-buttons {
+				display: flex;
+				justify-content: center;
+				gap: 2rem;
+				margin-top: 2rem;
+			}
+
+			.icon-button {
+				transition: all 0.3s ease;
+				opacity: 0.8;
+			}
+
+			.icon-button:hover {
+				opacity: 1;
+				transform: scale(1.1);
+			}
+
+			.icon-button i {
+				font-size: 3rem;
+				color: rgba(255, 255, 255, 0.9);
+			}
+
+			code {
+				background-color: rgba(139, 111, 71, 0.1);
+				padding: 0.2rem 0.5rem;
+				border-radius: 4px;
+				font-size: 0.9em;
+			}
+
+			pre code {
+				display: block;
+				padding: 1rem;
+				overflow-x: auto;
+				background: rgba(0, 0, 0, 0.05);
+				border-left: 3px solid var(--earth-primary);
+			}
+
+			.pipeline-tabs {
+				margin: 2rem 0;
+			}
+
+			.tab-content {
+				background: rgba(255, 255, 255, 0.03);
+				padding: 1.5rem;
+				border-radius: 8px;
+				margin-top: 1rem;
+			}
+
+			.section-divider {
+				border-top: 1px solid rgba(139, 111, 71, 0.3);
+				margin: 2rem 0;
+			}
+
+			/* Resume article styling for image gallery */
+			#resume {
+				padding: 1.5rem !important;
+				max-width: 70% !important;
+				width: 70vw !important;
+			}
+
+			#resume h2 {
+				margin-bottom: 1.5rem;
+			}
+
+			#resume .resume-page {
+				margin-bottom: 1.5rem;
+				background: #fff;
+				border-radius: 4px;
+				overflow: hidden;
+				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+				max-width: 800px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			#resume .resume-page img {
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+
+			/* Make all navigation items equal width */
+			#header nav ul li {
+				width: 25%;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-dna"></span>
+						</div>
+						<div class="content">
+							<div class="content">
+								<div class="inner">
+									<h1>Shiva Sadeghpour</h1>
+									<p>M.S. in Bioinformatics | Computational Biology | Data Science</p>
+									<p>Interests: Data Science, Data Analytics, Cancer Genomics, Machine Learning
+								</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#about">About Me</a></li>
+								<li><a href="#research">Research</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<li><a href="#resume">Resume</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- About Me -->
+						<article id="about">
+							<h2 class="major">About Me</h2>
+							<span class="image main"><img src="images/pic04.png" alt="Shiva Sadeghpour" /></span>
+							<p>I'm a bioinformatician specializing in computational tools for genomics and data science. I started as a wet lab technician at Caltech's neuroscience department, running experiments and analyzing gene expression data before pivoting to computational biology. I earned my master's in bioinformatics working with 1.5 TB of metagenomic data, developing expertise in Unix, R, Python, and Nextflow. Today, I build scalable genomic pipelines, apply machine learning to multi-omic datasets, and engineer data solutions for biomarker discovery and early disease detection. I've collaborated with teams at NASA, CSU, and biotech startups, consistently translating complex biological data into actionable insights that advance diagnostics and treatment.</p>
+						</article>
+
+						<!-- Research -->
+						<article id="research">
+							<h2 class="major">Research</h2>
+							<h3>Large-Scale Metagenomic Analysis</h3>
+
+							<p><strong>The Problem:</strong> Analyzing massive genomic datasets (1.5 TB across 60 samples) using traditional tools like BLAST becomes computationally prohibitive, taking weeks to complete and creating a bottleneck in research workflows.</p>
+
+							<p><strong>My Solution:</strong> I designed and implemented an automated bioinformatics pipeline using profile Hidden Markov Models (pHMMs) that reduced functional gene annotation time from weeks to just 8 hours—a 100x improvement—while maintaining 87% precision. I deployed parallelized workflows on HPC infrastructure to process over 640,000 predicted proteins, enabling scalable analysis that was previously impractical.</p>
+
+							<p><strong>The Impact:</strong> This work successfully identified light-harvesting gene families across all samples with statistical significance (p < 0.002), demonstrating how algorithmic optimization and workflow automation can transform computational bottlenecks into tractable problems. The pipeline's efficiency and reproducibility proved critical for generating publication-ready results linking gene distribution to environmental variables in extreme desert ecosystems.</p>
+						</article>
+
+
+						<!-- Contact -->
+						<article id="contact">
+							<h2 class="major">Contact</h2>
+							<p>Email: shiva.sghpr@gmail.com</p>
+							<div class="icon-buttons">
+								<a href="mailto:shiva.sghpr@gmail.com" class="icon-button" title="Email">
+									<i class="fas fa-envelope"></i>
+								</a>
+								<a href="https://www.linkedin.com/in/shiva-sadeghpour-27b081155/" target="_blank" class="icon-button" title="LinkedIn">
+									<i class="fab fa-linkedin"></i>
+								</a>
+								<a href="https://github.com/shivabioinformatics" target="_blank" class="icon-button" title="GitHub">
+									<i class="fab fa-github"></i>
+								</a>
+							</div>
+						</article>
+
+						<!-- Resume -->
+						<article id="resume">
+							<h2 class="major">Resume</h2>
+							<div class="resume-page">
+								<img src="images/image1.png" alt="Resume Page 1">
+							</div>
+							<div class="resume-page">
+								<img src="images/image2.png" alt="Resume Page 2">
+							</div>
+						</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; 2024 Shiva Sadeghpour. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
